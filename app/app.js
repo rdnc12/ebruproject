@@ -12,7 +12,7 @@ const init = () => {
     app.set('view engine', 'ejs');
     app.use(express.static("public"));
     app.use('/static', express.static(path.join(__dirname, 'public')));  //https://expressjs.com/en/starter/static-files.html
-    app.use(bodyParser.json());
+    //app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: true }));
     //config end
 
