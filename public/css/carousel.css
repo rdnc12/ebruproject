@@ -10,6 +10,7 @@
 #myCarousel h4 {
     font-size: 50px;
     margin-bottom: 15px;
+    color: #FFF;
     line-height: 100%;
     letter-spacing: 0.5px;
     font-weight: 600;
@@ -18,6 +19,7 @@
 #myCarousel p {
     font-size: 18px;
     margin-bottom: 15px;
+    color: #d5d5d5;
 }
 
 #myCarousel .carousel-item a {
@@ -26,7 +28,6 @@
     color: #FFF;
     padding: 13px 32px;
     display: inline-block;
-    
 }
 
 #myCarousel .carousel-item a:hover {
@@ -79,7 +80,8 @@
 #myCarousel {
     position: relative;
     z-index: 1;
-   
+    background: url(https://i.imgur.com/6axE29k.jpg) center center no-repeat;
+    background-size: cover;
 }
 
 .carousel-control-next,
@@ -297,6 +299,5 @@
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
-
 
 }
