@@ -121,10 +121,6 @@ app.get("/", (req, res) => {
 });
 
 
-app.get("/admin", function(req,res){
-    res.render ("admin");
-  });
-
 
 
 app.get("/nieuws", function(req,res){
